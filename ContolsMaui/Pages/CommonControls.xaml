@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContolsMaui.Pages.CommonControls"
+             Title="Common Controls"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame BackgroundColor="White" Margin="10">
+                <VerticalStackLayout>
+                    <Image Source="aaaaaa.png" HeightRequest="100"/>
+                    <Label Text="Codeing moments"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+                </VerticalStackLayout>
+                
+            </Frame>
+            
+            <Frame BackgroundColor="White">
+                <Border Padding="10" StrokeThickness="5" Stroke="black" BackgroundColor="White">
+                    <Label Text="Welcome to the susland"/>
+                </Border>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

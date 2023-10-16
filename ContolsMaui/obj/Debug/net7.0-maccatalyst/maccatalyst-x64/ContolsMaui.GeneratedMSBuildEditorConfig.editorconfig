@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ContolsMaui
+build_property.ProjectDir = C:\Users\sskis\OneDrive\Documents\T4 Projects\WEEK1-4\LO\ControlsMaui\MauiControlls\ContolsMaui\
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Pages/CommonControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Pages.CommonControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CommonControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CommonControls.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
