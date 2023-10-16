@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContolsMaui.Pages.InputControls"
+             Title="Input Controls">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Frame BackgroundColor="White">
+                <Entry Placeholder="SUMTHING HERE" PlaceholderColor="Red"/>
+            </Frame>
+            <Frame BackgroundColor="White">
+                <Editor Placeholder="Editor" AutoSize="TextChanges"/>
+            </Frame>
+            <Frame BackgroundColor="White">
+                <HorizontalStackLayout>
+                    <CheckBox/>
+                    <Label Text="CHECKBOX" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="White">
+                <VerticalStackLayout>
+                    <RadioButton GroupName="G1" Content="OPtions 1"/>
+                    <RadioButton GroupName="G1" Content="OPtions 2"/>
+                    <RadioButton GroupName="G1" Content="OPtions 3"/>
+                    <RadioButton GroupName="G2" Content="OPtions 4"/>
+                    <RadioButton GroupName="G2" Content="OPtions 5"/>
+                    <RadioButton GroupName="G2" Content="OPtions 6"/>
+                </VerticalStackLayout>
+                
+            </Frame>
+            <Frame BackgroundColor="White">
+                <VerticalStackLayout>
+                    <Slider Minimum="1" Maximum="100" ValueChanged="Slider_ValueChanged"
+                            MaximumTrackColor="Red"
+                            MinimumTrackColor="Black"
+                            ThumbColor="Green"
+                            ThumbImageSource="aaaaaa.png"/>
+                    <Label x:Name="SliderValueLabel" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+
+            </Frame>
+            
+            <Frame BackgroundColor="White">
+                <Stepper HorizontalOptions="Center" ValueChanged="Stepper_ValueChanged"
+                         Maximum="20"
+                         Minimum="4"
+                         Increment="2"/>
+            </Frame>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

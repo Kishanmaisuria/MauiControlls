@@ -11,7 +11,16 @@
     <MauiXaml Update="App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\ActionControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\CommonControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\InputControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

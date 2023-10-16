@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContolsMaui.Pages.ActionControls"
+             Title="Action Controls"
+             BackgroundColor="White">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame BackgroundColor="White" Margin="10" >
+                <Button x:Name="ADB" BackgroundColor="Red" Text="Click this" Clicked="ADB_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="White" Margin="10">
+                <ImageButton x:Name="DEMOIMGButton" Source="aaaaaa.png" Clicked="DEMOIMGButton_Clicked" HeightRequest="50"/>
+            </Frame>
+            <Frame BackgroundColor="White" Margin="10">
+                <SearchBar x:Name="DSBar" SearchButtonPressed="DSBar_SearchButtonPressed"/>
+            </Frame>
+            
+            <SwipeView>
+                <SwipeView.LeftItems>
+                    <SwipeItems>
+                        <SwipeItem x:Name="FBSItem" BackgroundColor="LightSeaGreen" IconImageSource="aaaaaa.png" Invoked="FBSItem_Invoked"/>
+                        <SwipeItem x:Name="INSSItem" BackgroundColor="Green" IconImageSource="aaaaaa.png" Invoked="INSSItem_Invoked"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                    <SwipeItems>
+                        <SwipeItem x:Name="TwitterSItem" BackgroundColor="LightSeaGreen" IconImageSource="aaaaaa.png" Invoked="TwitterSItem_Invoked"/>
+                        <SwipeItem x:Name="LinkedinSItem" BackgroundColor="Green" IconImageSource="aaaaaa.png" Invoked="LinkedinSItem_Invoked"/>
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <VerticalStackLayout>
+                    <Label Text="Swipe view"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           BackgroundColor="Grey"
+                           Padding="10"
+                           TextColor="Red"/>
+                </VerticalStackLayout>
+            </SwipeView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

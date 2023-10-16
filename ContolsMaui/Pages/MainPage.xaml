@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContolsMaui.Pages.MainPage"
+             Title="Main Page"
+             BackgroundColor="White">
+    <FlexLayout Direction="Column">
+
+        <VerticalStackLayout Padding="20" Spacing="10" FlexLayout.Grow="1" VerticalOptions="End">
+            <Button x:Name="ComConButton" BackgroundColor="red" Text="Common Controls" TextColor="white" Clicked="ComConButton_Clicked"/>
+            <Button x:Name="ACTButton" BackgroundColor="red" Text="Action Controls" TextColor="white" Clicked="ACTButton_Clicked"/>
+            <Button x:Name="InputButton" BackgroundColor="red" Text="Input Controls" TextColor="white" Clicked="InputButton_Clicked"/>
+            
+            
+        </VerticalStackLayout>
+        
+        <VerticalStackLayout BackgroundColor="Black" Padding="10">
+            <Label Text="There is somthing behid you"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="white"/>
+        </VerticalStackLayout>
+    </FlexLayout>
+
+</ContentPage>
