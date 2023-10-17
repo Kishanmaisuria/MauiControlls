@@ -28,6 +28,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Pages.CommonCo
 build_metadata.AdditionalFiles.TargetPath = Pages\CommonControls.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\CommonControls.xaml
 
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Pages/DrawingControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Pages.DrawingControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DrawingControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DrawingControls.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Pages/Indicators.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Pages.Indicators.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Indicators.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Indicators.xaml
+
 [C:/Users/sskis/OneDrive/Documents/T4 Projects/WEEK1-4/LO/ControlsMaui/MauiControlls/ContolsMaui/Pages/InputControls.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ContolsMaui.Pages.InputControls.xaml

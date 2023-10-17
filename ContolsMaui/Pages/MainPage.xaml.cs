@@ -21,4 +21,14 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new InputControls());
     }
+
+    private void IndiButton_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Indicators());
+    }
+
+    private void DrawButton_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new DrawingControls());
+    }
 }

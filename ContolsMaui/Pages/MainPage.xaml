@@ -10,8 +10,10 @@
             <Button x:Name="ComConButton" BackgroundColor="red" Text="Common Controls" TextColor="white" Clicked="ComConButton_Clicked"/>
             <Button x:Name="ACTButton" BackgroundColor="red" Text="Action Controls" TextColor="white" Clicked="ACTButton_Clicked"/>
             <Button x:Name="InputButton" BackgroundColor="red" Text="Input Controls" TextColor="white" Clicked="InputButton_Clicked"/>
-            
-            
+            <Button x:Name="IndiButton" BackgroundColor="red" Text="Indicator Controls" TextColor="white" Clicked="IndiButton_Clicked"/>
+            <Button x:Name="DrawButton" BackgroundColor="red" Text="Drawing Controls" TextColor="white" Clicked="DrawButton_Clicked"/>
+
+
         </VerticalStackLayout>
         
         <VerticalStackLayout BackgroundColor="Black" Padding="10">
