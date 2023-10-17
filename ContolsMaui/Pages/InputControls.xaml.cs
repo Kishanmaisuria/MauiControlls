@@ -14,6 +14,6 @@ public partial class InputControls : ContentPage
 
     private void Stepper_ValueChanged(object sender, ValueChangedEventArgs e)
     {
-
+        DisplayAlert("Stepper Vlaue",$"Value:{ e.NewValue}","Oki?");
     }
 }

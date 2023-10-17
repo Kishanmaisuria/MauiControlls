@@ -31,11 +31,12 @@
             </Frame>
             <Frame BackgroundColor="White">
                 <VerticalStackLayout>
+                    <Label Text="slide this"/>
                     <Slider Minimum="1" Maximum="100" ValueChanged="Slider_ValueChanged"
                             MaximumTrackColor="Red"
                             MinimumTrackColor="Black"
                             ThumbColor="Green"
-                            ThumbImageSource="aaaaaa.png"/>
+                            ThumbImageSource="aaaaaa.png" ScaleX="0.5" ScaleY="0.5"/>
                     <Label x:Name="SliderValueLabel" HorizontalOptions="Center"/>
                 </VerticalStackLayout>
 
@@ -47,7 +48,18 @@
                          Minimum="4"
                          Increment="2"/>
             </Frame>
-            
+            <Frame BackgroundColor="White">
+                <Switch HorizontalOptions="Center" />
+            </Frame>
+
+            <Frame BackgroundColor="White">
+                <DatePicker />
+            </Frame>
+
+            <Frame>
+                <TimePicker/>
+            </Frame>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
