@@ -46,7 +46,7 @@
             </Frame>
             <Frame BackgroundColor="#EAEEFA">
                 <Polyline Points="20,15 300,50 300,100 200,150 80,60 20,15"
-                          Stroke="Blue"
+                          Stroke="lightBlue"
                           StrokeThickness="5"/>
             </Frame>
             <Frame BackgroundColor="#EAEEFA">
